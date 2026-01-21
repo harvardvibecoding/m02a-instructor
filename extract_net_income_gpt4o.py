@@ -1,3 +1,12 @@
+### Get AMD NetIncome
+### m02a-instructor/extract_net_income_gpt4o.py
+###
+### Author: Dhilan + GitHub Copilot
+### Date: Jan 10, 2026
+###
+### Prompt without specifics (to understand data first / select NetIncomeLoss).
+### --> failed results.  Using GPT-4o.
+
 import json
 
 def extract_net_income(file_path):

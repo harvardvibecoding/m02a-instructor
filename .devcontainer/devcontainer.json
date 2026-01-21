@@ -11,7 +11,7 @@
       }
     }
   },
-  "postCreateCommand": "bash .devcontainer/post_create.sh",
+  "postCreateCommand": "bash .devcontainer/post_create.sh && exec /bin/bash -il",
   "forwardPorts": [],
   "remoteUser": "vscode"
 }

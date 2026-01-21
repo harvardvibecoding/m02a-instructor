@@ -1,10 +1,18 @@
+### Compare Apple and AMD Revenue
+### m02a-instructor/compare_revenue.py
+###
+### Author: Dhilan + GitHub Copilot
+### Date: Jan 10, 2026
+###
+### Fabricated data, failed revenue retrieval.  Using GPT-4o
+
 import json
 
 def load_amd_data(file_path):
     """Load AMD revenue data from a JSON file."""
     try:
         with open(file_path, 'r') as file:
-            data = json.load(file)
+            data = (json.load(file)).get('revenue')
         return data
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}")

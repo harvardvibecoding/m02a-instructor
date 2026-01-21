@@ -1,4 +1,12 @@
-#!/usr/bin/env python3
+### Get AMD NetIncome
+### m02a-instructor/extract_net_income_gpt5-mini.py
+###
+### Author: Dhilan + GitHub Copilot
+### Date: Jan 10, 2026
+###
+### Prompt without specifics.  Gets further, but wrong year association.
+### Using GPT-5 mini.
+
 import json
 from datetime import datetime
 from pathlib import Path

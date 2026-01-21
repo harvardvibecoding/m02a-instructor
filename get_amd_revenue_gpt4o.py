@@ -1,3 +1,11 @@
+### Get AMD Revenue
+### m02a-instructor/get_amd_revenue_gpt4o.py
+###
+### Author: Dhilan + GitHub Copilot
+### Date: Jan 10, 2026
+###
+### Vague prompt, failed results.  Using GPT-4o.
+
 import json
 
 def get_amd_revenue(json_file):
